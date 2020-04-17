@@ -1,2 +1,2 @@
-# Atlamnta_crimedata
+# Atlanta_crimedata
 Atlanta Crime Data
