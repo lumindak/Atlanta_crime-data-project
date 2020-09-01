@@ -1,0 +1,21 @@
+body {
+    /* background-image: url(https://thumbs.dreamstime.com/z/double-explosure-businesss-charts-financial-district-m-megapolis-city-73918609.jpg); */
+    background-image: url(../images/atlanta.jpg);
+    background-repeat: repeat-y,repeat-x;
+    flood-color: aliceblue;
+}
+
+.container {
+    background-color: rgba(141, 178, 247, 0.486);
+    vertical-align: auto;
+    text-align: center;
+}
+
+h1, h4 {
+    text-align: center;
+    color:white
+}
+li {
+    display: list-item;
+    text-align:left;
+}
