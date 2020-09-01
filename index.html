@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="static/css/style.css">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <br>
+        <title>Atlanta Crimes</title>
+
+        <div class="container">
+            <h1>Atlanta Crimes</h1>
+            <h4>
+                We have explored the trends in crime data for the city of Atlanta. We were interested to see the 
+                relationship between crimes and neighborhoods through household income. We also be analyzed the types of crimes 
+                happening and when they are most likely to occur. This topic is something that is relevant for all of us, and can 
+                give us some insight on a topic that affects all of our daily lives. Our hypothesis was neighborhoods with 
+                lower median home income see statistically significant higher crime rates. The data we obtained included over 
+                26,000 data points that include, Time and date of crime, Specific charge , Street Address, Neighborhood
+                <hr style="height:2px;border-width:0;color:white;background-color:white">
+            </h4>
+        </div>
+    </head>
+    
+    <body>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+                <img src="static/images/pie.png" Hspace="10" Vspace="10" alt="" style="width:100%" class="img-thumbnail">
+                <div class="centered"> </div>
+
+            </div>
+            <div class="col-sm-5">
+                <img src="static/images/reg.png" Hspace="10" Vspace="10" alt="" style="width:100%" class="img-thumbnail">
+                
+            </div>
+            <div class="col-sm-1"></div>
+            
+        </div>
+    
+        <div class="row">
+            
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <h4>
+                 <div style="align-content:initial">
+                    <hr style="height:2px;border-width:0;color:white;background-color:white">
+                    These are our findings:
+                   
+                    <ul style="list-style-type:square;">
+                        <li>The most common type of crime is Larceny From Vehicle, the least common is Homicide.</li>
+                   
+                        <li>The neighborhood with the highest median income was Paces (third lowest per-capita crime 
+                            rate), the neighborhood with the highest crime per-capita was Westend.</li>
+                  
+                        <li>The lowest crime rate per-capita was Georgia Tech, the next lowest was Knight Park / Howel Station.</li>
+                 
+                        <li>The most crimes happened in June followed by July, February was the least.</li>
+                 
+                        <li>The most crimes occurred on Friday, the least on Sunday.</li>
+             
+                      </ul>
+
+                    <br>There is no liner relationship between income level and crimes per-capita in a given neighborhood. 
+                    The following are the results from our linear regression P value = 0.00014 R value = -0.52307 With 
+                    a P value < 0.05, we show that an increase in median income is correlated with a decrease in crimes 
+                    per-capita. Also, our R value shows that there is not a strong linear correlation between median 
+                    income level and crimes per-capita    
+                    <hr style="height:2px;border-width:0;color:white;background-color:white">  
+                </div>
+            </div>
+            
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="row">
+            
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+             <h4>
+
+                 Used: Python, Pandas, gmaps, numpy, scipy, JSONs and API's <br>
+                 Github : https://github.com/lumindak/Atlanta_crime-data-project
+                 <br><br>
+             </h4>
+            
+            </div>
+            
+            <div class="col-sm-1"></div>
+        </div>
+    </body>
+ </html>
